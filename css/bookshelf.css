@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style>
+		body, html {
+			margin: 0;
+			padding: 0;
+		}
+		h1 , h2 {
+			width: 100%;
+			text-align: center;
+		} 
+		p.myinfo {
+			width: 700px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		h2 {
+			margin-top: 70px;
+		}
+		
+		
+		
+		
+		
+		/**
+		* Carousel with image and text (horizontal)
+		**/
+		#carousel-image-text-horizontal {
+			width: 690px;
+			height: 70px;
+			margin: 0 auto;
+						text-shadow:#000 1px 1px;	
+
+		}
+		#carousel-image-text-horizontal .touchcarousel-item {
+			width: 105px;
+			height: 148px;
+			margin-right: 12px;			
+			padding: 0px;
+			position: relative;
+		}
+
+		}
+		#carousel-image-text-horizontal img, 
+		#carousel-image-text-horizontal h4,
+		#carousel-image-text-horizontal p {
+			float:left;
+			position: relative;
+			margin: 0;
+			padding: 0;	
+			border: 0;		
+		}		
+		#carousel-image-text-horizontal img {			
+			width: 60px;
+			height: 60px;
+		}
+		#carousel-image-text-horizontal .rblock {
+			width: 96px;
+			height:148px;
+			float: left;
+			margin-left: 7px;
+			padding-top: 20px;
+			padding-right: 7px;
+			background-image:url(../img/books/blue.png)
+		}
+		#carousel-image-text-horizontal .brown {
+			width: 96px;
+			height:148px;
+			float: left;
+			margin-left: 7px;
+			padding-top: 20px;
+			padding-right: 7px;
+			background-image:url(../img/books/brown.png)
+
+		}
+			#carousel-image-text-horizontal .green {
+			width: 96px;
+			height:148px;
+			float: left;
+			margin-left: 7px;
+			padding-top: 20px;
+			padding-right: 7px;
+			background-image:url(../img/books/green.png)
+
+		}
+			#carousel-image-text-horizontal .grey {
+			width: 96px;
+			height:148px;
+			float: left;
+			margin-left: 7px;
+			padding-top: 20px;
+			padding-right: 7px;
+			background-image:url(../img/books/grey.png)
+		}
+			#carousel-image-text-horizontal .orange {
+			width: 96px;
+			height:148px;
+			float: left;
+			margin-left: 7px;
+			padding-top: 20px;
+			padding-right: 7px;
+			background-image:url(../img/books/orange.png)
+
+		}
+			#carousel-image-text-horizontal .pink {
+			width: 96px;
+			height:148px;
+			float: left;
+			margin-left: 7px;
+			padding-top: 20px;
+			padding-right: 7px;
+			background-image:url(../img/books/pink.png)
+
+		}
+			#carousel-image-text-horizontal .purple {
+			width: 96px;
+			height:148px;
+			float: left;
+			margin-left: 7px;
+			padding-top: 20px;
+			padding-right: 7px;
+			background-image:url(../img/books/purple.png)
+
+		}
+			#carousel-image-text-horizontal .red {
+			width: 96px;
+			height:148px;
+			float: left;
+			margin-left: 7px;
+			padding-top: 20px;
+			padding-right: 7px;
+			background-image:url(../img/books/red.png)
+		}
+		
+				#carousel-image-text-horizontal .yellow {
+			width: 96px;
+			height:148px;
+			float: left;
+			margin-left: 7px;
+			padding-top: 20px;
+			padding-right: 7px;
+			background-image: url(../img/books/yellow.png)
+
+		}
+		
+		
+		#carousel-image-text-horizontal h4 {
+			font: bold 13px/20px Helvetica, Arial, sans-serif;
+			color: #000;
+			width: 140px;
+		}
+		#carousel-image-text-horizontal p {			
+			font: normal 13px/18px Helvetica, Arial, sans-serif;
+			color: #ffffff;
+			padding-left: 15px;
+		}
+		#carousel-image-text-horizontal a {
+
+		color:#FFFFFF;	
+		
+			
+		}
+
+
+	</style>

@@ -1,0 +1,248 @@
+@charset"utf-8";
+
+body {
+    background-color: #f5f8fa;
+    color: #1e3948;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    height: 100%;
+}
+/* Content boxes
+-------------------------------------------------- */
+.cont_box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+    border-color: #d3e0e9;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 133px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 88px;
+  padding-right: 15px;
+}
+.dbeLogo {
+    clear: both;
+    float: left;
+    margin-top: -45px;
+}
+.img-responsive {
+    display: block;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+body {
+    background-color: #a4f0fe;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+body > .container {
+  padding: 85px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.navbar-blue {
+	background-image: url("../img/blue-bar.jpg");
+    background-repeat: repeat-x;
+    height: 62px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+
+.links {
+    padding: 5px;
+}
+.footer_inside {
+    background-color: rgba(62, 126, 0, 0.7);
+}
+.footer_icons {margin-top: 10px;}
+
+.footerTxt {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 25px;
+    padding-right: 30px;
+}
+.h2, h2 {
+    font-size: 22px;
+}
+#dbe-cloud-logo {
+    background: rgba(0, 0, 0, 0) url("img/image.png") no-repeat scroll center center;
+    height: 117px;
+    left: 1px;
+    float: left;
+  
+    width: 154px;
+
+}
+/* Icon Styles
+-------------------------------------------------- */
+
+.navicon {
+    display: inline-block;
+    overflow: hidden;
+    width: 45px; 
+  	height: 45px;
+}
+.navicon-house {
+    background: url(img/house.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-microphone {
+    background: url(img/screen-reader-mute.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-glasses {
+    background: url(img/glasses.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-lock {
+    background: url(img/lock.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-login {
+    background: url(img/login.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-back {
+    background: url(img/back.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-close {
+    background: url(img/exit.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-increase {
+    background: url(img/zoom-in.png) center center  no-repeat;
+  	background-size: 30px 30px;
+}
+.navicon-decrease {
+    background: url(img/zoom-out.png) center center  no-repeat;
+  	background-size: 30px 30px;
+}
+.navbar-nav > li > a {
+    padding-bottom: 2px;
+    padding-top: 10px;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background: rgba(238, 238, 238, 0.3); 
+}
+
+
+/* Hides the hamburger menu */
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  /*padding: 15px;*/
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}

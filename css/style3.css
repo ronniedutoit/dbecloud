@@ -1,0 +1,158 @@
+@charset"utf-8";
+
+body {
+    background-color: #f5f8fa;
+    color: #1e3948;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    height: 100%;
+}
+/* Content boxes
+-------------------------------------------------- */
+.cont_box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+    border-color: #d3e0e9;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 133px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 88px;
+  padding-right: 15px;
+}
+.dbeLogo {
+    clear: both;
+    float: left;
+    margin-top: -45px;
+}
+.img-responsive {
+    display: block;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+body {
+    background-color: #a4f0fe;
+    background-image: url("img/educloud-background3.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+body > .container {
+  padding: 85px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.navbar-blue {
+	background-image: url("../img/blue-bar.jpg");
+    background-repeat: repeat-x;
+    height: 62px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+
+.links {
+    padding: 5px;
+}
+.footer_inside {
+    background-color: rgba(62, 126, 0, 0.7);
+}
+.footer_icons {margin-top: 10px;}
+
+.footerTxt {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 25px;
+    padding-right: 30px;
+}
+.h2, h2 {
+    font-size: 22px;
+}
+#dbe-cloud-logo {
+    background: rgba(0, 0, 0, 0) url("img/image.png") no-repeat scroll center center;
+    height: 117px;
+    left: 1px;
+    float: left;
+  
+    width: 154px;
+
+}
+/* Icon Styles
+-------------------------------------------------- */
+
+.navicon {
+    display: inline-block;
+    overflow: hidden;
+    width: 45px; 
+  	height: 45px;
+}
+.navicon-house {
+    background: url(img/house.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-microphone {
+    background: url(img/microphone.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-glasses {
+    background: url(img/glasses.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-lock {
+    background: url(img/lock.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-back {
+    background: url(img/back.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navicon-close {
+    background: url(img/exit.png) center center  no-repeat;
+  	background-size: 35px 35px;
+}
+.navbar-nav > li > a {
+    padding-bottom: 2px;
+    padding-top: 10px;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background: rgba(238, 238, 238, 0.3); 
+}
